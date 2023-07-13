@@ -1,0 +1,578 @@
+*{
+    padding: 0;
+margin: 0;
+}
+
+
+/* header section starts */
+header{
+    background-color: #f8f8f8;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header h1 {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    letter-spacing: -0.16px;
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+.aa{
+    text-decoration: none;
+    color: #181818;
+}
+
+
+ header ul li{
+    display: inline-block;
+    line-height: 32px;
+    font-family: 'Syne';
+    position: relative;
+    left: 350px;
+    top: 5px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #232323;
+    margin:4px 20px;
+    font-weight: 650;
+}
+header .btn1{
+    border-radius: 200px;
+    background-color: transparent;
+    border-width: 1px;
+    font-style: normal;
+    margin: 9.6px 9.6px;
+    width: 148px;
+    height: 55px;
+    position: relative;
+    left: 1100px;
+    bottom: 40px;
+}
+.btn1 , p , .btn2 , .btn{
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #181818;
+}
+.btn1:hover{
+    transition: all 0.2s ease-in-out;
+    border-color: transparent;
+}
+/* header section ends */
+.all {
+    overflow-y: hidden;
+}
+.all , .home , .works , header{
+    overflow: hidden;
+
+}
+/* home section starts */
+.home{
+background-color: #f8f8f8;align-items: center;
+height: 100vh;
+background-size: 100% 100%;
+    background-size:auto;
+}
+.text p{
+    margin-bottom: 24px;
+}
+.text h1{
+    font-family: 'Syne';
+    font-size: 64px;
+ color: #181818;
+ margin-bottom: 24px;
+ font-weight: 400;
+}
+.text h5{
+    margin-bottom: 48px;
+    color: #454545;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text{
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+.img{
+    width: 647px;
+    height: 460px;
+    position: relative;
+    left: 700px;
+    bottom: 280px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+}
+.button{
+    position: relative;
+    left:50px;
+    top: 90px;
+}
+.btn{
+    min-width: 148px;
+    max-height: 55px;
+    font-weight: 400;
+    box-shadow: none;
+    background-color: #181818;
+    border-color: #181818;
+    color: #fff;
+    padding: 9.6px 19.2px;
+    border-radius: 200px;
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    border-width: 1px;
+    font-style: normal;
+    margin: 9.6px 9.6px;
+}
+.btn:hover{
+    transition: all 0.2s ease-in-out;
+    color: #181818;
+    background-color: transparent;
+    border-width: 0;
+}
+.btn2{
+    min-width: 148px;
+    max-height: 55px;
+    font-weight: 400;
+    box-shadow: none;
+    background-color: transparent;
+    color: #181818;
+    border-color: transparent;
+    padding: 9.6px 19.2px;
+    border-radius: 200px;
+}
+.btn2:hover{
+    background-color: #181818;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+/* home section ends */
+/* works section starts */
+.works .text p{
+    margin-bottom:  104px;
+    position: relative;
+    bottom: 10px;
+    font-size: 16px;
+}
+.works .text h3{
+    margin-bottom: 19.5px;
+    position: relative;
+    bottom: 100px;
+    font-family: 'Syne';
+    font-weight: 400;
+    font-size: 60px;
+}
+.works .text h5{
+    margin-bottom: 44px;
+    font-family: 'Poppins';
+    font-size: 27px;
+    font-weight: 400;
+    position: relative;
+    left: 650px;
+    bottom: 170px;
+}
+.sects .sec1 .img1 ,.img2 ,.img3 ,.img4 {
+    width: 600px;
+    height: 520px;
+    position: relative;
+    margin-bottom: 22px;
+    left: 50px;
+
+}
+ .img1 img  , .img2 img , .img3 img , .img4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.sec2 , .sec4{
+    position: relative;
+    left: 650px;
+    bottom: 600px;
+}
+.sec4 {
+    position: relative;
+    bottom: 1070px;
+}
+.sec3{
+    position: relative;
+    bottom: 470px;
+}
+
+.sects p{
+    margin-bottom: 4px;
+    color: #454545;
+    font-weight: 400;
+}
+.sects .sec1 .sec1text,.sec3 .sec3text {
+    position: relative;
+    left: 50px;
+}
+.sects .sec2 .sec2text , .sec4 .sec4text{
+    position: relative;
+    left: 50px ;
+}
+.sects h5{
+ font-family: 'Poppins';
+ font-size: 24px;
+ font-weight: 500;
+}
+/* sects sections ends */
+/* posts section starts */
+.post{
+    position: relative;
+    bottom: 900px;
+    background-color: #f8f8f8;
+    
+}
+.post .up .lorem{
+visibility: hidden;
+}
+.post .up h3{
+    font-family: 'Syne';
+    font-size: 56px;
+    margin-bottom: 80px;
+}
+.post .up , .down , .earth , .pics{
+    position: relative;
+    left: 50px;
+}
+.line{
+    width: 90%;
+    height: 1px;
+    background-color: #d9d9d9;
+    margin-bottom: 65px;
+    position: relative;
+    left: 50px;
+
+}
+
+.down p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #454545;
+}
+.earth{
+    position: relative;
+    left: 710px;
+    bottom: 100px;
+}
+.earth .texte h3 , .pics .textp h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #181818;
+    margin-bottom: 13px;
+    font-weight: 400;
+}
+.imge , .imgp{
+    width: 30px;
+    height: 30px;
+}
+.imge img , .imgp img{
+    width: 100%;
+    height: 100%;
+}
+
+.texte h5 , .textp h5{
+    font-family: 'Syne';
+    font-size: 12px;
+    color: #454545;
+}
+span{
+    opacity: .6;
+    font-weight: 400;
+}
+
+.pics{
+    position: relative;
+    left: 1020px;
+    bottom: 210px;
+}
+.linre{
+    width: 90%;
+    padding-left: 13px;
+    padding-right: 13px;
+    height: 3px;
+    background-color: #181818;
+    position: relative;
+    bottom: 800px;
+    left: 50px;
+}
+/* sects section ends */
+/* mordena section starts */
+.texta{
+position: relative;
+bottom: 660px;
+left: 50px;
+
+}
+.texta h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #181818;
+    font-weight: 400;
+    margin-bottom: 9.5px;
+}
+.texta h5{
+    font-family: 'Syne', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #454545;
+}
+
+.imga , .imgb{
+    width: 190px;
+    height: 140px;
+    position: relative;
+    left: 700px;
+    bottom: 760px;
+    margin-right: 12px;
+}
+.imga{
+    margin-bottom: 12px;
+}
+.imga img , .imgb img{
+    width: 100%;
+    height: 100%;}
+
+.imgc{
+    height: 292px;
+    position: relative;
+    left: 900px;
+    bottom: 1052px;
+}
+.imgc img{
+    height: 100%;
+}
+.linee{
+    width: 93%;
+    height: 1px;
+    position: relative;
+    bottom: 970px;
+    left: 40px;
+    background-color: #d9d9d9;
+}
+/* posts section starts */
+.posts{
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f8f8f8;
+    position: relative;
+    bottom: 900px;
+    overflow: hidden;
+    
+}
+.liner{
+    width: 90%;
+    height: 3px;
+    background-color: #181818;
+    position: relative;
+    top: 90px;
+    left: 50px;
+}
+.upp{
+   position: relative;
+   top:148px;
+   left: 50px;
+   font-family: 'Syne';
+   font-weight: 400;
+}
+.upp h4{
+    position: relative;
+    left: 1150px;
+    bottom: 20px;
+}
+.things{
+    font-family: 'Syne';
+    font-weight: 400;
+    color: #181818;
+    font-size: 12px;
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+.spn{
+    font-weight: 700;
+    color: black;
+}
+.spn:hover{
+    transition: all .3s ease;
+    color: rgb(231, 213, 188);
+}
+.profile{
+    position: relative;
+    top: 200px;
+}
+.profile h3{
+    font-family: 'Syne';
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: -4px;
+}
+.profile h3:hover{
+    color: #454545;
+    transition: all .3s ease;
+}
+.profile h6{
+    font-family: 'Syne';
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+}
+
+.profile h3 , .profile h6{
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.imgpro{
+    height: 32px;
+    width: 32px;
+    position: relative;
+    left: 50px;
+}
+
+.imgpro img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.loremss h1{
+    font-weight: 500;
+    font-size: 50px;
+    font-family: 'Syne';
+    margin-bottom: 24px;
+    line-height: 55px;
+    position: relative;
+    letter-spacing: -1.99152px;
+    left: 330px;
+    top: 130px;
+}
+.loremss h1:hover{
+    color: rgb(231, 213, 188);
+    transition: all .3s ease;
+}
+.loremss h6{
+    letter-spacing: -0.16px;
+    font-size: 16px;
+    font-family: 'Syne';
+    position: relative;
+    font-weight: 400;
+    left: 330px;
+    top: 124px;
+}
+.imggs .texts p{
+    position: relative;
+    left: 1120px;
+    bottom: 170px;
+    font-weight: 300;
+}
+.im11{
+    width: 192px;
+    height: 128px;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    position: relative;
+    left: 1000px;
+    bottom: 150px;
+}
+.im11 img{
+    width: 100%;
+    height: 100%;
+}
+.im11 img:hover{
+    transition: all .3s ease;
+    width: 200px;
+    height: 136px;
+}
+.im12 , .im13{
+    width: 76px;
+    height: 56px;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+    margin: 12px;
+    position: relative;
+    left: 1200px;
+    bottom: 290px;
+}
+.im12 img , .im13 img {
+    width: 100%;
+    height: 100%;
+}
+.im12 img:hover , .im13 img:hover{
+    transition: all .3s ease;
+    width: 84px;
+    height: 64px;
+}
+/* posts section ends */
+/*connect section starts*/
+.connect{
+    background-color: #f8f8f8;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    position: relative;
+    bottom: 850px;
+}
+.connect .textc .lolo{
+    visibility: hidden;
+}
+.connect .textc p{
+    font-weight: 700;
+    padding-left: 50px;
+}
+.connect .textc h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.56;
+    letter-spacing: -0.01em;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    padding-left: 50px;
+    color: #181818;
+    font-weight: 400;
+}
+.email{
+    padding: 0;
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid #d9d9d9;
+    border-radius: 0;
+    font-size: 16px;
+    background-color: transparent;
+    font-family: 'Syne';
+    letter-spacing: -0.01em;
+    line-height: 20px;
+    font-weight: 400;
+    width: 42%;
+    height: auto;
+    position: relative;
+    bottom: 150px;
+    left: 700px;
+}
+.loerm{
+    font-size: 12px;
+    color: #454545;
+    font-family: 'Syne', sans-serif;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    position: relative;
+    left: 120px;
+    bottom: 100px;
+}
+.bton .btn{
+    position: relative;
+    left: 900px;
+    bottom: 60px;
+}
